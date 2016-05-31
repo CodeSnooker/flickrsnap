@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FlickrSnap</string>
+    <string name="search_hint">Search...</string>
+    <string name="menu_search">Menu Search</string>
+    <string name="search_result">Search Results</string>
+    <string name="search_for_a_tag">Search for Tag by tapping on Search Icon</string>
+</resources>
