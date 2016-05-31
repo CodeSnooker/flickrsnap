@@ -125,7 +125,7 @@ public class FlickrPhoto {
     }
 
     public void setTags(String tags) {
-        Log.d("TAGS", tags);
+        // Log.d("TAGS", tags);
         this.tags = tags;
     }
 

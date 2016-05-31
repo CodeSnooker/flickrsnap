@@ -190,7 +190,7 @@ public class MainActivity extends AppCompatActivity {
 
 
                         ArrayList<FlickrPhoto> photos = flickrResponse.getFlickrPhotoCollection().getPhotos();
-                        Log.d(TAG, "Photos fetchd in current session: " + photos.size());
+                        // Log.d(TAG, "Photos fetchd in current session: " + photos.size());
 
                         if (response.isSuccessful()) {
                             runOnUiThread(new Runnable() {

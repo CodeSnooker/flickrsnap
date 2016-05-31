@@ -46,7 +46,7 @@ public class FlickrItemRecyclerViewHolder extends RecyclerView.ViewHolder implem
 
     @Override
     public void onClick(View v) {
-        Toast.makeText(v.getContext(), "Clicked Position = " + getPosition(), Toast.LENGTH_SHORT).show();
+        // Toast.makeText(v.getContext(), "Clicked Position = " + getPosition(), Toast.LENGTH_SHORT).show();
     }
 
     public void updateFavourite(boolean markFavourite) {

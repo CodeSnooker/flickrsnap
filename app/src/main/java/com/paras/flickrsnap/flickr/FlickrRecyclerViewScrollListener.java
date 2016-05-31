@@ -81,7 +81,7 @@ public abstract class FlickrRecyclerViewScrollListener extends RecyclerView.OnSc
 
         if (lastVisibleItemPositions != null) {
             if (!_onLastPage && !_loading && lastVisibleItemPositions[lastVisibleItemPositions.length - 1] + _visibleThreshold > totalItemCount) {
-                Log.d("ScrollListner", "----------- LOAD MORE CALLED ---------");
+                // Log.d("ScrollListner", "----------- LOAD MORE CALLED ---------");
                 _currentPage++;
                 this.onLoadMore(_currentPage, totalItemCount);
                 _loading = true;

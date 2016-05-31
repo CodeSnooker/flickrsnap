@@ -125,7 +125,7 @@ public class FlickrRecyclerViewAdapter extends RecyclerView.Adapter<RecyclerView
      * @return
      */
     private boolean addOrRemoveToFavourities(int position) {
-        Log.d("View Adapter", "Position in Array: " + position);
+        // Log.d("View Adapter", "Position in Array: " + position);
         FlickrPhoto flickrPhoto = photos.get(position);
         boolean favouriteStatus = false;
         if (flickrPhoto != null) {
